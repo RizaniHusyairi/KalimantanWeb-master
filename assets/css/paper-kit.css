@@ -6987,14 +6987,6 @@ License - nucleoapp.com/license/
   color: #FFFFFF;
 }
 
-[class*="features-"],
-[class*="team-"],
-[class*="projects-"],
-[class*="pricing-"],
-[class*="testimonials-"],
-[class*="contactus-"] {
-  padding: 80px 0;
-}
 
 .section-image {
   background-position: center center;
@@ -7036,14 +7028,6 @@ License - nucleoapp.com/license/
   }
 }
 
-[class*="features-"],
-[class*="team-"],
-[class*="projects-"],
-[class*="pricing-"],
-[class*="testimonials-"],
-[class*="contactus-"] {
-  padding: 80px 0;
-}
 
 .section-image {
   background-position: center center;
