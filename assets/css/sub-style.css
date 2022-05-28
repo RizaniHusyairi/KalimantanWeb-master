@@ -1,0 +1,117 @@
+.cat-icon img{
+    background-size:cover;
+    width: 177px;
+    margin-bottom: 16px;
+}
+
+.testimonial-area .testimonial-caption .testimonial-top-cap p {
+    line-height: 1.5;
+    padding-right: 0px !important;
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-left: 246px;
+    text-align: left;
+}
+
+.testimonial-padding {
+    padding-top: 25px !important;
+    padding-bottom: 0px !important;
+}
+
+.testimonial-founder{
+    position:relative;
+    top: -197px;
+    justify-content: left !important;
+}
+
+.h1-testimonial-active button.slick-arrow {
+    position: absolute;
+    top: 25% !important;
+    left: 0px;
+    transform: translateY(-50%);
+    border: 0;
+    padding: 0;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    color: #eb566c;
+    background: none;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 26px !important;
+    padding: 0;
+}
+
+
+.col-xl-4 .single-team .detail {
+    position: absolute;
+    top: 6px;
+    left: 25px;
+    right: 26px;
+    bottom: 298px;
+    border-radius: 23px;
+    background: rgba(0, 0, 0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.col-xl-4 .single-team .detail2 {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    right: 26px;
+    bottom: 266px;
+    border-radius: 23px;
+    background: rgba(0, 0, 0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.col-xl-4 .single-team:hover .detail {
+    transform: scaleY(1);
+}
+
+.col-xl-4 .single-team:hover .detail2 {
+    transform: scaleY(1);
+}
+
+.single-team .detail .konten, .single-team .detail2 .konten{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+
+}
+
+.single-team .detail .konten p ,.single-team .detail2 .konten p {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+
+.single-team .team-caption{
+    margin-top: 152px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+

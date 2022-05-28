@@ -1,0 +1,70 @@
+.peoples-visit .single-visit.left-img {
+    position: relative;
+    
+}
+
+.peoples-visit .single-visit {
+    position: relative;
+    padding: 90px 0;
+    /*opacity: 0;
+    transform: translate(0,60px);
+    transition: .9s;*/
+}
+
+/*.peoples-visit .single-visit.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+*/
+.batas-top{
+    margin-top: 100px;
+    margin-bottom: 55px ;
+}
+
+
+
+.peoples-visit .single-visit.left-img::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    top: 0;
+    bottom: 0;
+    background-image: url(../img/smd.jpg);
+    width: 50%;
+    border-radius: 0 5px 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.peoples-visit .visit-caption {
+    background: #6e7c7c;
+    padding: 63px 59px 12px 62px;
+    border-radius: 5px;
+}
+
+.peoples-visit .visit-caption span {
+    font-size: 35px;
+    font-weight: 702;
+    color: #1c1930;
+    display: inline-block;
+    font-family: cursive;
+}
+
+.peoples-visit .visit-caption h3 {
+    color: #1c1930;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+
+
+
+.peoples-visit .visit-caption p {
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: #ffffff;
+    font-family: "Sulphur Point",sans-serif;
+    font-size: 16px;
+}
